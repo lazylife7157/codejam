@@ -2,9 +2,12 @@ package lazylife.codejam.cj2016;
 
 import lazylife.codejam.util.Problem;
 
+/**
+ * @author lazylife7157
+ */
 public class P_2016_1A_A extends Problem {
 	@Override
-	protected String eval(String input) {
+	protected String eval(final String input) {
 		final char[] S = input.toCharArray();
 		String result = "" + S[0];
 		for (int i = 1; i < S.length; ++i) {

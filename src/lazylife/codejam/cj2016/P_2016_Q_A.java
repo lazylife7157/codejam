@@ -2,11 +2,14 @@ package lazylife.codejam.cj2016;
 
 import lazylife.codejam.util.Problem;
 
+/**
+ * @author lazylife7157
+ */
 public class P_2016_Q_A extends Problem {
 	private final int FALL_ASLEEP = (1 << 10) - 1;
 
 	@Override
-	protected String eval(String input) {
+	protected String eval(final String input) {
 		final int N = Integer.parseInt(input);
 		if (N == 0)
 			return "INSOMNIA";

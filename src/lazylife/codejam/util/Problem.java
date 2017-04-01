@@ -33,5 +33,5 @@ public abstract class Problem {
 	}
 
 	protected void initialize() {}
-	abstract protected String eval(String input);
+	abstract protected String eval(final String input);
 }

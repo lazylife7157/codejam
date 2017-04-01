@@ -8,7 +8,7 @@ import lazylife.codejam.util.Problem;
 public class P_2015_Q_A extends Problem {
 
     @Override
-    protected String eval(String input) {
+    protected String eval(final String input) {
         String[] temp = input.split(" ");
         int rpt = Integer.parseInt(temp[0]);
         int need = 0;
