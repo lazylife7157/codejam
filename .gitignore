@@ -1,4 +1,11 @@
-out/
+# Maven build files
+target/
+
+# Intellij config files
+.idea
+*.iml
+
+# Codejam I/O files
 *.in
 *.out
-.idea/workspace.xml
+
